@@ -12,15 +12,15 @@ const Tools = () => {
     <div className="w-full py-1 bg-white flex justify-center items-center -mt-5 md:mt-0">
       <div className="container px-3 md:px-0 max-w-[1200px] py-1">
         <div className="flex justify-center items-center">
-          <img src={image1} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
-          <img src={image2} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
-          <img src={image3} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
-          <img src={image4} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image1} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image2} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image3} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image4} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
         </div>
         <div className="flex justify-center items-center -mt-10 md:-mt-14">
-          <img src={image5} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
-          <img src={image6} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
-          <img src={image7} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image5} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image6} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
+          <img draggable='false' src={image7} className=" w-[23vmin] md:w-[20vmin] rounded-full border-slate-400 border-2" />
         </div>
       </div>
     </div>
