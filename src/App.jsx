@@ -6,6 +6,7 @@ import Stripe from './components/Stripe'
 import Services from './components/Services'
 import Tools from './components/Tools'
 import About from './components/About'
+import Projects from './components/Projects'
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
 <Tools/>
 <Stripe title={'Who is me?'}/>
 <About/>
-<Stripe title={'Services I Provide'}/>
+<Stripe title={'Project Overview'}/>
+<Projects/>
 <Footer/>
 </div>
 </>
