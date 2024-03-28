@@ -14,10 +14,10 @@ const Hero = () => {
             <Button value={"Contact me"} />
           </div>
         </div>
-        <div className="md:w-1/4 w-[88vw] md:h-68vh h-[58vh] relative rel rounded-3xl flex justify-center items-center bg-slate-300  mr-2 -ml-3 mb-10 md:mb-0">
+        <div className=" w-[65vmin] md:w-[50vmin] h-[65vmin] md:h-[50vmin] relative rounded-full flex justify-center items-center bg-slate-200  mr-2 -ml-3 mb-10 md:mb-0">
           <img
             src={portrait}
-            className=" absolute top-1 left-1 rounded-3xl ml-3 mt-3 border-[0.5px] border-blue-300"
+            className="w-[65vmin] md:w-[50vmin] h-[65vmin] md:h-[50vmin] object-cover absolute top-1 left-1 rounded-full ml-3 mt-3 border-[0.5px] border-blue-300"
           />
         </div>
       </div>

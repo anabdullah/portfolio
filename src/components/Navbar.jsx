@@ -10,9 +10,15 @@ const Navbar = () => {
           <h3 className="font-bold text-2xl">Portfolio</h3>
           <div className="hidden md:flex w-1/3 justify-between items-center">
             <ul className="flex gap-6 items-center list-none">
-              <li className="cursor-pointer">About me</li>
-              <li className="cursor-pointer">Projects</li>
-              <li className="cursor-pointer">Contact</li>
+              <li className="cursor-pointer">
+                <a href="#about">About me</a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="#projects">Projects</a>
+              </li>
+              <li className="cursor-pointer">
+                <a href="#contact">Contact</a>
+              </li>
             </ul>
             <Button value={"Get my CV"} />
           </div>

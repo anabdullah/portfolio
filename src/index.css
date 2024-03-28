@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+*{
+    scroll-behavior: smooth;
+}
+.inview{
+    animation:0.4s animeIn ease-in;
+    transition: all 0.2s ease-in;
+}
+
+@keyframes animeIn{
+    from{
+        margin-top: 10%;
+        opacity: 0;
+    }
+    to{
+        margin-top:0%;
+        opacity: 1;
+    }
+}

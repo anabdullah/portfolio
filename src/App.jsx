@@ -20,7 +20,7 @@ function App() {
 <Tools/>
 <Stripe title={'Who is me?'}/>
 <About/>
-<Stripe title={'Project Overview'}/>
+<Stripe title={'Projects Overview'}/>
 <Projects/>
 <Footer/>
 </div>
